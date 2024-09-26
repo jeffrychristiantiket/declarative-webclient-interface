@@ -1,0 +1,11 @@
+### GET request to example server
+GET https://api.themoviedb.org/3/discover/movie?
+    include_adult=false&
+    include_video=false&
+    page=1&
+    language=en-US&
+    sort_by=popularity.desc
+Authorization: Bearer {your-api-key}
+Accept: application/json
+
+###
